@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class VerySimplePersonEventHandler implements ActivityEndEventHandler, ActivityStartEventHandler {
-
+ 
     private final Map<Id<Person>, Double> actEndTimes = new HashMap<>();
 
     @Override
